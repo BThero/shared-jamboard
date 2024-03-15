@@ -5,7 +5,7 @@ import { Sketch } from "./components/Sketch";
 import { io } from "socket.io-client";
 
 const App: Component = () => {
-  const socket = io("ws://172.20.10.2:8080");
+  const socket = io("ws://localhost:8080");
 
   return (
     <div class={styles.App}>
